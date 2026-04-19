@@ -16,6 +16,6 @@ def test_say_hello_run_without_exceptions():
         practicum.say_hello()
     except Exception as error:
         raise AssertionError(
-            f'При запуске функции `{EXPECTED_FUNC_NAME}` возникло '
+            f'При запуске функции `{EXPECTED_FUNC_NAME}` возникло =('
             f'исключение: {type(error).__name__}: {error}`'
         )
